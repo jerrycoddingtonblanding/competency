@@ -1,0 +1,114 @@
+
+body{
+    font-family: 'Lato', sans-serif;
+    background-color: #dddddd;
+    width: 100%;
+}
+
+h1{
+    text-align: center;
+    font-size: 35px;
+    background-image: url(img/ipod.jpg);
+    height: 300px;
+    background-position: center center;
+    background-size: cover;
+    padding-top: 100px;
+    color: blue;
+    text-shadow: 3px 2px rgb(172, 16, 16);
+    letter-spacing: 5px;  
+}
+
+.menus{
+    margin: auto;
+    margin-right: auto;
+    width: 650px;
+    height: 100px;
+}
+
+li.menu{
+    background-color:  #f05800;
+    font-size: 18px;
+    border-bottom: 1px solid black;
+    width: 150px;
+    height: 25px;
+    padding: 5px;
+    text-align: center;
+    list-style: none;
+    float: left;
+    border-radius: 50%;
+    margin: 10px;
+}
+
+ li.menu a:hover{
+    color: white;
+      
+}
+
+#imgLocation{
+    width: 300px;
+    border: solid 5px black;
+    border-radius: 5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    opacity: 0.9;
+}
+
+#imgLocation:hover{
+    transform: scale(1.1);
+}
+
+p{
+    color: black;
+    font-size: 14px;
+    text-align: left;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+h4{
+    color: red;
+
+}
+
+.stuff{
+    width: 100%;
+}
+
+.products{
+    width: 28%;
+    background-color: white;
+    border: solid 3px black;
+    padding: 5px;
+    text-align: center;
+    float: left;
+    margin: 5px;
+}
+
+.abstract{
+    background: white;
+    text-align: justify;
+    padding: 20px;
+    border-radius: 8px;
+    margin-left: auto;
+    margin-right: auto;
+    text-indent: 20px;
+}
+    h2{
+        text-align: center;
+        font-size: 24px;
+        border-bottom: 1px solid black;
+        padding-bottom: 10px;
+    }
+
+    p.text{
+        text-align: center;
+        font-size: 18px;
+        word-spacing: 3px;
+        background: white;
+        padding: 5px;
+        text-indent: 10px;
+    }
+
